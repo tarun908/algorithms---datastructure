@@ -18,11 +18,11 @@ const LinkedListFind=(head,target)=>{
     let curr=head;
     while(curr!=null){
         if(curr.val==target)
-        return true
         curr=curr.next;
         
     }
-    return false;
+    console.log(curr.val)
+   
 }
 
-LinkedListFind(a,'C');
+console.log(LinkedListFind(a,'C'))
